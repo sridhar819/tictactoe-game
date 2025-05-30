@@ -22,7 +22,7 @@ const App = () => {
         WINNER IS : X
       </p>}
       {isDraw && <p className="text-orange-500 px-3 font-bold text-xl">IT'S DRAW</p>}
-      <p className="text-red-400 font-semibold px-3 mt-3 text-md">X wins: <mark className="text-xl px-3">{winnerList.O ||0}</mark></p>
+      <p className="text-red-400 font-semibold px-3 mt-3 text-md">X wins: <mark className="text-xl px-3">{winnerList.X ||0}</mark></p>
       <p className="text-violet-500 font-semibold px-3 text-md">O wins: <mark className="text-xl px-3">{winnerList.O ||0}</mark></p>
     </div>
   )
